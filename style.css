@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&family=Oswald:wght@400;500;600&family=Raleway:wght@200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.heading{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table{
+    background: linear-gradient(90deg, rgba(81,0,255,1) 0%, rgba(119,0,255,1) 59%, rgba(166,22,242,1) 100%);
+    margin: auto;
+    color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-transform: uppercase;
+    background: #7a19e8;
+    padding: 15px 15px 15px 5px;
+}
+tr{
+    text-align: left;
+    transition: all 0.2s;
+}
+td{
+    padding: 15px 15px 15px 5px;
+}
+tr:hover{
+    background-color: #686de0;
+}
+tr:hover td{
+    background-color: #686de0;
+}
